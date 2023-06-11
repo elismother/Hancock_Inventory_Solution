@@ -68,8 +68,6 @@
                 {
                     message += productCount[i] + " " + productName[i] + "s\n";
                 }
-                
-
             }
             return message;
         }
@@ -110,12 +108,12 @@
                         return shippingCost;
                     }
                 }
+
                 else
                 {
                     return shippingCost;
                 }
             }
-
             return shippingCost;
         }
 
